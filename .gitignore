@@ -1,3 +1,5 @@
+*.icloud
+
 # Node modules
 node_modules
 
