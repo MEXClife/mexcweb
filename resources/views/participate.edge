@@ -1,0 +1,23 @@
+@layout('master')
+
+@section('content')
+
+  <div class="business-hero">
+    <div class="container">
+      <h2 class="customFadeInUp">
+        {{ antl.formatMessage('home.tagline') }}
+      </h2>
+      <p class="customFadeInUp">
+        {{ antl.formatMessage('home.hero.1') }}
+        <br>
+        <br>
+        {{ antl.formatMessage('home.hero.2') }}
+      </p>
+
+      <div class="actions customFadeInUp">
+        <a href="#" class="btn-pill btn-pill-primary btn-pill-lg">{{ antl.formatMessage('home.action_button') }}</a>
+      </div>
+    </div>
+  </div>
+
+@endsection

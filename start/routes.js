@@ -16,3 +16,4 @@
 const Route = use('Route')
 
 Route.get('/', 'HomeController.home')
+Route.get('/participate', 'HomeController.participate')

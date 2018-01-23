@@ -9,6 +9,10 @@ class HomeController {
     return view.render('home', { pageTitle: 'Home' })
   }
 
+  async participate({ request, view }) {
+    return view.render('participate', { pageTitle: 'Participate' }) 
+  }
+
 }
 
 module.exports = HomeController
