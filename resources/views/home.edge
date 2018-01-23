@@ -41,25 +41,25 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a href="index.html#" class="nav-link dropdown-toggle">Home</a>
+            <a href="index.html#" class="nav-link dropdown-toggle">{{ antl.formatMessage('home.title') }}</a>
           </li>
           <li class="nav-item">
-            <a href="index.html#" class="nav-link dropdown-toggle">Team</a>
+            <a href="index.html#" class="nav-link dropdown-toggle">{{ antl.formatMessage('home.team') }}</a>
           </li>
           <li class="nav-item">
-            <a href="index.html#" class="nav-link dropdown-toggle">White Paper</a>
+            <a href="index.html#" class="nav-link dropdown-toggle">{{ antl.formatMessage('home.white_paper') }}</a>
           </li>
           <li class="nav-item">
-            <a href="index.html#" class="nav-link dropdown-toggle">Code</a>
+            <a href="index.html#" class="nav-link dropdown-toggle">{{ antl.formatMessage('home.code') }}</a>
           </li>
           <li class="nav-item">
-            <a href="index.html#" class="nav-link dropdown-toggle">Token Info</a>
+            <a href="index.html#" class="nav-link dropdown-toggle">{{ antl.formatMessage('home.token_info') }}</a>
           </li>
           <li class="nav-item">
-            <a href="index.html#" class="nav-link dropdown-toggle">Social</a>
+            <a href="index.html#" class="nav-link dropdown-toggle">{{ antl.formatMessage('home.social') }}</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-link--rounded" href="#">Get Started</a>
+            <a class="nav-link nav-link--rounded" href="#">{{ antl.formatMessage('home.action_button') }}</a>
           </li>
         </ul>
       </div>
@@ -69,17 +69,17 @@
   <div class="business-hero">
     <div class="container">
       <h2 class="customFadeInUp">
-        EMX is set to democratize the Emergency and Medical Services industry.
+        {{ antl.formatMessage('home.tagline') }}
       </h2>
       <p class="customFadeInUp">
-        Emergency Medical Services (EMS) provides professional and reliable Basic Life Support (BLS) and Advanced Life Support (ALS) care to the sick and injured.
+        {{ antl.formatMessage('home.hero.1') }}
         <br>
         <br>
-        Pre-hospital care helps reduces further damage and manages life-threatening conditions through a series of well- defined and appropriate interventions, and ensures patient safety. Emergency medical responders help sustain life, reduce pain and minimise the consequences of injury or illness until advanced medical care is available.
+        {{ antl.formatMessage('home.hero.2') }}
       </p>
 
       <div class="actions customFadeInUp">
-        <a href="index.html#" class="btn-pill btn-pill-primary btn-pill-lg">Participate</a>
+        <a href="index.html#" class="btn-pill btn-pill-primary btn-pill-lg">{{ antl.formatMessage('home.action_button') }}</a>
       </div>
     </div>
   </div>
@@ -89,9 +89,9 @@
       <div class="row">
         <div class="col-12">
           <div class="header">
-            <h2>Overview of The Industry</h2>
+            <h2>{{ antl.formatMessage('home.overview.title') }}</h2>
             <p>
-              A brief overview of EMS products and services market.
+              {{ antl.formatMessage('home.overview.desc') }}
             </p>
           </div>
         </div>
@@ -101,10 +101,10 @@
           <div class="feature">
             <img src="images/icons/spacial-devices.png">
             <h3>
-              USD 6.78 billion market.
+              {{ antl.formatMessage('home.overview.1') }}
             </h3>
             <p>
-              EMS industry market size is set to be USD 6.8 billion dollars in 2018.
+              {{ antl.formatMessage('home.overview.1.desc') }}
             </p>
           </div>
         </div>
@@ -112,11 +112,11 @@
           <div class="feature">
             <img src="images/icons/spacial-download.png">
             <h3>
-              We cover 90% of EMS Products and Services
-              <span class="badge-new">Hot</span>
+              {{ antl.formatMessage('home.overview.2') }}
+              <span class="badge-new">{{ antl.formatMessage('home.button.hot') }}</span>
             </h3>
             <p>
-              Our patent-pending products and services cover 90% of the EMS categories.
+              {{ antl.formatMessage('home.overview.2.desc') }}
             </p>
           </div>
         </div>
@@ -126,10 +126,10 @@
           <div class="feature">
             <img src="images/icons/spacial-location.png">
             <h3>
-              Patent
+              {{ antl.formatMessage('home.overview.3') }}
             </h3>
             <p>
-              All 31 products shall be patented after the ICO to ensure all EMX holders can benefit from the EMS market.
+              {{ antl.formatMessage('home.overview.3.desc') }}
             </p>
           </div>
         </div>
@@ -137,10 +137,10 @@
           <div class="feature">
             <img src="images/icons/spacial-settings.png">
             <h3>
-              Enjoy a whole new set of participations
+              {{ antl.formatMessage('home.overview.4') }}
             </h3>
             <p>
-              Participating in EMX enables a new set of joy in helping people.
+              {{ antl.formatMessage('home.overview.4.desc') }}
             </p>
           </div>
         </div>
@@ -151,9 +151,9 @@
   <div class="index-features" data-scroll>
     <div class="container">
       <header>
-        <h3>EMS Categories</h3>
+        <h3>{{ antl.formatMessage('home.category.title') }}</h3>
         <p>
-          EMS categories can be divided into Advanced Life Support (ALS) and Basic Life Support (BLS).
+          {{ antl.formatMessage('home.category.desc') }}
         </p>
       </header>
       <section class="features">
@@ -162,14 +162,14 @@
             <img src="images/icons/features-icon-ok.png" class="icon" />
             <section>
               <h4>
-                Advcanced Life Support
+                {{ antl.formatMessage('home.category.als') }}
               </h4>
               <ol>
-                <li>Vascular access</li>
-                <li>Pacemaker</li>
-                <li>Respirator</li>
-                <li>Other advanced equipment (e.g., nebulisers and glucose meters).</li>
-                <li>Medications (preloaded syringes).</li>
+                <li>{{ antl.formatMessage('home.category.als.1') }}</li>
+                <li>{{ antl.formatMessage('home.category.als.2') }}</li>
+                <li>{{ antl.formatMessage('home.category.als.3') }}</li>
+                <li>{{ antl.formatMessage('home.category.als.4') }}</li>
+                <li>{{ antl.formatMessage('home.category.als.5') }}</li>
               </ol>
             </section>
           </div>
@@ -177,15 +177,15 @@
             <img src="images/icons/features-icon-canvas.png" class="icon" />
             <section>
               <h4>
-                Basic Life Support
+                {{ antl.formatMessage('home.category.bls') }}
               </h4>
               <ol>
-                <li>Ventilation and airway equipment</li>
-                <li>Monitoring and defibrillation</li>
-                <li>Immobilisation devices</li>
-                <li>Bandages</li>
-                <li>Infection control</li>
-                <li>Injury prevention equipment</li>
+                <li>{{ antl.formatMessage('home.category.bls.1') }}</li>
+                <li>{{ antl.formatMessage('home.category.bls.2') }}</li>
+                <li>{{ antl.formatMessage('home.category.bls.3') }}</li>
+                <li>{{ antl.formatMessage('home.category.bls.4') }}</li>
+                <li>{{ antl.formatMessage('home.category.bls.5') }}</li>
+                <li>{{ antl.formatMessage('home.category.bls.6') }}</li>
               </ol>
             </section>
           </div>
