@@ -1,4 +1,4 @@
-# emxweb
+# mexcweb
 
 ## Preparations
 Install the needed components like Adonis, and pm2
